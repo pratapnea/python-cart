@@ -8,8 +8,8 @@ def index(request):
 
 
 def about(request):
-    return HttpResponse("We are at about")
-    #return render(request, 'shop/about.html')
+    # return HttpResponse("We are at about")
+    return render(request, 'shop/about.html')
 
 
 def contact(request):
